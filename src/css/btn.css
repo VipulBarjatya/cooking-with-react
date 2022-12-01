@@ -1,0 +1,35 @@
+.btn {
+    background: none;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: inherit;
+    border-radius: 5px;
+    padding: 5px 20px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 250ms;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.2);
+}
+
+.btn--primary {
+    color: white;
+    background-color: hsl(200, 100%, 45%);
+}
+
+.btn--primary:hover {
+    background-color: hsl(0, 0%, 30%);
+}
+
+.btn--secondary {
+    color: white;
+    background-color: hsl(25, 100%, 45%);
+}
+
+.btn--secondary:hover {
+    background-color: hsl(0, 0%, 30%);
+}
